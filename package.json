@@ -1,0 +1,17 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "description": "Reaplace Indonesian date to date",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "src": "src"
+  },
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Syihab Achmad Prayogo",
+  "license": "ISC"
+}
