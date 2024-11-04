@@ -1,4 +1,4 @@
-function replaceDateToSystemFormat(indonesianDate) {
+function replaceIDLocalDateToDate(indonesianDate) {
   if (new Date(indonesianDate) != "Invalid Date") {
     return new Date(indonesianDate);
   } else {
@@ -25,3 +25,5 @@ function replaceDateToSystemFormat(indonesianDate) {
     return new Date(year, monthIndex, day);
   }
 }
+
+export default replaceIDLocalDateToDate;
