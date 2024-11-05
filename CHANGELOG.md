@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `RWID GitHub Actions` will be documented in this file.
+All changes of `GITHUB-ACTION` will be documented in this file.
