@@ -9,10 +9,21 @@
     "src": "src"
   },
   "scripts": {
-    "test": "npm run test",
+    "test": "jest",
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
+  "keywords": [
+    "indonesian",
+    "date",
+    "replace",
+    "javascript"
+  ],
   "author": "Syihab Achmad Prayogo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
 }
