@@ -1,6 +1,7 @@
 function replaceIDLocalDateToDate(indonesianDate) {
-  if (new Date(indonesianDate) != "Invalid Date") {
-    return new Date(indonesianDate);
+  if (new Date(Date.UTC(indonesianDate)) != "Invalid Date") {
+    console.log(indonesianDate + " is valid date");
+    return new Date(Date.UTC(indonesianDate));
   } else {
     const month = [
       "januari",
@@ -22,7 +23,16 @@ function replaceIDLocalDateToDate(indonesianDate) {
     const monthIndex = month.indexOf(indonesianDate[1].toLowerCase());
     const year = indonesianDate[2];
 
-    return new Date(year, monthIndex, day);
+    console.log(
+      indonesianDate +
+        " is invalid date, convert to " +
+        day +
+        " " +
+        month[monthIndex] +
+        " " +
+        year
+    );
+    return new Date(Date.UTC(year, monthIndex, day));
   }
 }
 
