@@ -1,4 +1,3 @@
 {
-  "files.autoSave": "onWindowChange",
-  "editor.formatOnSave": true
+  "files.autoSave": "onWindowChange"
 }
