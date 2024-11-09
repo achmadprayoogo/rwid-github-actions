@@ -26,11 +26,12 @@ function replaceIDLocalDateToDate(indonesianDate) {
     console.log(
       indonesianDate +
         " is invalid date, convert to " +
-        day +
-        " " +
-        month[monthIndex] +
-        " " +
-        year
+        year +
+        "-" +
+        monthIndex +
+        1 +
+        "-" +
+        day
     );
     return new Date(Date.UTC(year, monthIndex, day));
   }

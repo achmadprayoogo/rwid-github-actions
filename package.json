@@ -1,5 +1,5 @@
 {
-  "name": "achmadprayoogo/rwid-github-actions",
+  "name": "@achmadprayoogo/rwid-github-actions",
   "version": "1.0.1",
   "description": "Reaplace Indonesian date to date",
   "main": "index.js",
