@@ -28,14 +28,10 @@ jobs:
       - name: Run test
         run: npm run test
 
-      - name: Run tests and generate coverage report
+      - name: Run tests
         run: npm run test -- --coverage
 
-      - name: Upload coverage to Codecov
-        uses: coverage//codecov-action@v3
+      - name: Upload results to Codecov
+        uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./coverage/lcov.info
-          flags: unittests
-          name: codecov-upload
-          fail_ci_if_error: true
