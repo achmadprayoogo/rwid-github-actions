@@ -3,7 +3,7 @@
 [![License](https://badgen.net/github/license/achmadprayoogo/rwid-github-actions "License")](LICENSE.md)
 [![Release](https://badgen.net/github/release/achmadprayoogo/rwid-github-actions "Release")](https://github.com/achmadprayoogo/rwid-github-actions/releases)
 
-Learn CI/CD on github actions in RWID Course by create function and test for reaplace Indonesian date to system date (UTC) ex. "1 januari 2024" into "2024-01-01" using JavaScript.
+Learn CI/CD on github actions in RWID Course by create function and test for replace Indonesian date to system date (UTC) ex. "1 januari 2024" into "2024-01-01" using JavaScript.
 
 This code was developed with JavaScript.
 
